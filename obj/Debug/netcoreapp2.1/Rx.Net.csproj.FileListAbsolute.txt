@@ -1,0 +1,11 @@
+D:\training\Rx.Net\obj\Debug\netcoreapp2.1\Rx.Net.csprojAssemblyReference.cache
+D:\training\Rx.Net\obj\Debug\netcoreapp2.1\Rx.Net.csproj.CoreCompileInputs.cache
+D:\training\Rx.Net\obj\Debug\netcoreapp2.1\Rx.Net.AssemblyInfoInputs.cache
+D:\training\Rx.Net\obj\Debug\netcoreapp2.1\Rx.Net.AssemblyInfo.cs
+D:\training\Rx.Net\bin\Debug\netcoreapp2.1\Rx.Net.deps.json
+D:\training\Rx.Net\bin\Debug\netcoreapp2.1\Rx.Net.runtimeconfig.json
+D:\training\Rx.Net\bin\Debug\netcoreapp2.1\Rx.Net.runtimeconfig.dev.json
+D:\training\Rx.Net\bin\Debug\netcoreapp2.1\Rx.Net.dll
+D:\training\Rx.Net\bin\Debug\netcoreapp2.1\Rx.Net.pdb
+D:\training\Rx.Net\obj\Debug\netcoreapp2.1\Rx.Net.dll
+D:\training\Rx.Net\obj\Debug\netcoreapp2.1\Rx.Net.pdb
