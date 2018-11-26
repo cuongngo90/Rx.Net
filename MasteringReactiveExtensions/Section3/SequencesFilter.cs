@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Reactive.Disposables;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
@@ -27,9 +28,11 @@ namespace Rx.Net.MasteringReactiveExtensions.Section3
 
         private void DistinctOperator()
         {
-            Observable.Range(-10, 21)
-                .Select(x => x * x)
-                .Distinct()
+            var values = new List<int>(new int[] {1,1,2,2,1,1,2,2});
+
+            values.ToObservable()
+                //.Select(x => x * x)
+                .DistinctUntilChanged()
                 .Inspect("Select distinct");
         }
 

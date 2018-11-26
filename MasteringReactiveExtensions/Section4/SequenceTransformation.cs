@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Reactive.Concurrency;
 using System.Reactive.Disposables;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
@@ -51,10 +53,9 @@ namespace Rx.Net.MasteringReactiveExtensions.Section4
 
         private void SelectManyOperator()
         {
-            Observable.Range(1,3)
-                //.Select(x => Observable.Range(1,x))
-                .SelectMany(x => Observable.Range(1,x))
-                .Inspect("slectmany");
+            Observable.Range(1, 4, Scheduler.Immediate)
+                .SelectMany(x => Observable.Range(1, x, Scheduler.Immediate))           
+                .Inspect("selectmany");
         }
     }
 }
